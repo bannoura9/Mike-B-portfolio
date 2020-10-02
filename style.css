@@ -1,0 +1,61 @@
+.media {
+  background-color: white;
+  margin: auto;
+  margin-top: 75px;
+  width: 65%;
+  padding: 20px;
+}
+#navbarText {
+  margin-left: 30%;
+}
+nav {
+  border-bottom: white solid 10px;
+}
+img {
+  width: 250px;
+  height: 250px;
+  float: left;
+}
+/* main {
+  background-color: lightgrey;
+} */
+body {
+  background-color: wheat;
+}
+.main-p {
+  float: left;
+}
+#main-portfolio {
+  width: 600px;
+  margin-bottom: 150px;
+}
+#Main-contact {
+  width: 600px;
+  margin-bottom: 150px;
+}
+.card {
+  margin: 20px;
+  width: 350px;
+}
+h1 {
+  color: white;
+  margin-left: 250px;
+}
+
+.btn {
+  background-color: black;
+  width: 200px;
+  color: white;
+}
+
+footer {
+  position: fixed;
+  padding: 10px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-top: white solid 10px;
+}
