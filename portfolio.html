@@ -1,74 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About me</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-     <meta charset="UTF-8" />
-     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     <title>About me</title>
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
-     <link rel="stylesheet" href="style.css" />
-</head>
+  <body>
+    <!-- //This section is for can -->
 
-<body>
-     <!-- //This section is for can -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <h1 class="navbar-brand mr-auto" href="#">Mike Bannoura</h1>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div>
-               <h1 class="text-color" class="navbar-brand" href="#">Mike Bannoura</h1>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="container">
+      <h2>Image Gallery</h2>
+      <section class="row">
+        <div class="col-md-6">
+          <div class="thumbnail img-fluid">
+            <img
+              src="./Assets/Images/pic-with-puppy.JPG"
+              alt="Lights"
+              style="width: 100%"
+            />
           </div>
-          <div class="collapse navbar-collapse" id="navbarText">
-               <ul class="navbar-nav mr-right">
-                    <li class="nav-item active">
-                         <a class="nav-link mr-5" href="./contact.html">Contact <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item mr-5">
-                         <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item mr-5">
-                         <a class="nav-link" href="index.html">About Me</a>
-                    </li>
-               </ul>
+        </div>
+        <div class="col-md-6">
+          <div class="thumbnail img-fluid">
+               <img src="./Assets/Images/pic-with-puppy.JPG" alt="Lights" style="width: 100%" />
           </div>
-     </nav>
-     <main id="main-portfolio"class="media">
-          <section>
-               <h2>Portfolio</h2>
-               <hr style="width:100%;text-align:left;margin-left:0;padding:3px">
-               <div class="card-group">
-                    <div class="card">
-                         <img class="card-img-top" src="./Assets/Images/Pool Pic.jpg" alt="Pool">
-                    </div>
-                    <div class="card">
-                         <img class="card-img-top" src="./Assets/Images/Pool Pic.jpg" alt="Pool">
-                    </div>
-               </div>
-               <div class="card-group">
-                    <div class="card">
-                         <img class="card-img-top" src="./Assets/Images/Pool Pic.jpg" alt="Pool">
-                    </div>
-                    <div class="card">
-                         <img class="card-img-top" src="./Assets/Images/Pool Pic.jpg" alt="Pool">
-                    </div>
-               </div>
-               <div class="card-group">
-                    <div class="card">
-                         <img class="card-img-top" src="./Assets/Images/Pool Pic.jpg" alt="Pool">
-                    </div>
-                    <div class="card">
-                         <img class="card-img-top" src="./Assets/Images/Pool Pic.jpg" alt="Pool">
-                    </div>
-               </div>
-               
-               
-               <br>
-               <br>
-               <br>
-          </section>
-     </main>
-     <footer>
-          <p>Copyright</p>
-     </footer>
-</body>
-
+        </div>
+      </section>
+      <section class="row">
+        <div class="col-md-6">
+          <    <div class="thumbnail img-fluid">
+            <img
+              src="./Assets/Images/pic-with-puppy.JPG"
+              alt="Lights"
+              style="width: 100%"
+            />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="thumbnail img-fluid">
+               <img src="./Assets/Images/pic-with-puppy.JPG" alt="Lights" style="width: 100%" />
+          </div>
+        </div>
+      </section>
+      <section class="row">
+        <div class="col-md-6">
+          <div class="thumbnail img-fluid">
+               <img src="./Assets/Images/pic-with-puppy.JPG" alt="Lights" style="width: 100%" />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="thumbnail img-fluid">
+               <img src="./Assets/Images/pic-with-puppy.JPG" alt="Lights" style="width: 100%" />
+          </div>
+        </div>
+      </section>
+    </section>
+    <footer>
+      <p>Copyright</p>
+    </footer>
+  </body>
 </html>
