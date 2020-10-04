@@ -2,8 +2,10 @@
   background-color: white;
   margin: auto;
   margin-top: 75px;
+  margin-bottom: 200px;
   width: 65%;
   padding: 20px;
+  font-size: 21px;
 }
 #navbarText {
   margin-left: 30%;
@@ -12,13 +14,13 @@ nav {
   border-bottom: white solid 10px;
 }
 img {
-  width: 250px;
-  height: 250px;
+  width: 50%;
+  height: 50%;
   float: left;
 }
-/* main {
-  background-color: lightgrey;
-} */
+.img-fluid {
+  margin: 10px;
+}
 body {
   background: url("./Assets/Images/background.JPG");
   background-repeat: no-repeat;
@@ -29,14 +31,7 @@ body {
 .main-p {
   float: left;
 }
-#main-portfolio {
-  width: 600px;
-  margin-bottom: 150px;
-}
-#Main-contact {
-  width: 600px;
-  margin-bottom: 150px;
-}
+
 .card {
   margin: 20px;
   width: 350px;
@@ -53,7 +48,7 @@ h1 {
 
 footer {
   position: fixed;
-  padding: 10px;
+  padding-top: 15px;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -61,22 +56,15 @@ footer {
   color: white;
   text-align: center;
 }
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
 .fa {
   padding: 20px;
   font-size: 30px;
   width: 50px;
-  text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  margin-bottom: 100px;
 }
 .fa-linkedin {
   background: #007bb5;
   color: white;
-}
-.social {
-  text-align: center;
+   text-align: center;
 }
