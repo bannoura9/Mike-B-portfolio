@@ -10,10 +10,12 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@600&family=EB+Garamond:wght@500&family=Kalam&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
   </head>
 
-  <body id="background">
+  <body class="background">
 
      <div>
         <nav class="nav flex-column">
@@ -28,12 +30,9 @@
           <a href="https://github.com/bannoura9/" target="_blank"><img class="linksimgs" src="./Images/Octocat.png" alt="Github logo"></a>
         </div>
      </div>
-
-    <main class="container row">
-      <section class="col-md-12 col-xs-12 col-lg-12 mb-5">
-        <iframe src="./Images/Profile.pdf#toolbar=0"></iframe>
+     <embed id="pdf-display" src="./Images/Profile.pdf" type="application/pdf"/>
         </section>
-    </main>
+   
     <script
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"

@@ -1,43 +1,38 @@
-body, html {
-  height: 100%;
+body,
+html {
+  /* height: 100%; */
   margin: 0;
 }
-{
-font-family: 'Big Shoulders Stencil Text', cursive;
-font-family: 'EB Garamond', serif;
-font-family: 'Kalam', cursive;
+ {
+  font-family: "Big Shoulders Stencil Text", cursive;
+  font-family: "EB Garamond", serif;
+  font-family: "Kalam", cursive;
 }
-
 
 .main-block {
   background-color: white;
   margin: auto;
   margin-top: 75px;
-  margin-bottom: 200px;
-  max-width: 75%;
-  max-height: 90%; 
-  padding: 100px;
+  max-width: 90%;
+  max-height: 90%;
   font-size: 21px;
   line-height: 40px;
+  padding-top: 20px;
 }
-#background {
- background: url("./Images/kevin-ku.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
+
+.background {
+  /* background-size: 100%;
+  background-size: cover; */
+  background: url("./Images/kevin-ku.jpg") rgba(255, 0, 150, 0.3);
   background-size: cover;
-}
-#home-background {
-  background: url("./Images/kevin-ku.jpg");
-  background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
-  background-size: cover;
+  background-blend-mode: multiply;
+  /* background-repeat: no-repeat; */
 }
 
 h2 {
   color: black;
-  font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
   font-size: 50px;
 }
 .flex-column {
@@ -47,7 +42,7 @@ h2 {
 .nav-link {
   color: white;
   font-size: 40px;
-  font-family: 'Big Shoulders Stencil Text', cursive;
+  font-family: "Big Shoulders Stencil Text", cursive;
   margin-top: -10px;
 }
 .nav-link:hover {
@@ -69,27 +64,44 @@ h2 {
   text-shadow: black 20px;
 }
 #webdeveloper {
-font-family: 'Kalam', cursive;
-color: white;
+  font-family: "Kalam", cursive;
+  color: white;
 }
 .linksimgs {
   align-items: center;
   height: 60px;
   width: 60px;
   margin: 20px;
+  background-color: white;
+  border-radius: 20%;
 }
 .linkblock {
   align-items: center;
 }
 .project-screenshot {
-  width: 30%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgb(255, 66, 8);
+}
+
+.project-card {
+  padding: 10px;
+}
+
+button {
+  width: 100%;
+  display: block;
+  background-color: blue;
+  color: white;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+#pdf-display {
+  width: 60%;
   margin: 20px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  float: left;
-}
-button {
-  width: 30%;
-  display: block;
+  height: 80%;
 }

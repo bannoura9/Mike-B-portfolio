@@ -10,43 +10,160 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@600&family=EB+Garamond:wght@500&family=Kalam&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
 
-  <body id="background">
-    
-     <div>
-        <nav class="nav flex-column">
-          <a class="nav-link active" href="./home.html">Home</a>
-          <a class="nav-link" href="./about-me.html">About me</a>
-          <a class="nav-link" href="./projects.html">Projects</a>
-          <a class="nav-link" href="./resume.html">Resume</a>
-        </nav>
-        <div class="linkblock d-flex justify-content-center">
-          <a href="https://www.linkedin.com/in/mike-b-170475197" target="_blank"><img class="linksimgs" src="./Images/linkedin_circle_color-512.png" alt="LinkedIn logo"></a>
+  <body class="background">
+    <div>
+      <nav class="nav flex-column">
+        <a class="nav-link active" href="./home.html">Home</a>
+        <a class="nav-link" href="./about-me.html">About me</a>
+        <a class="nav-link" href="./projects.html">Projects</a>
+        <a class="nav-link" href="./resume.html">Resume</a>
+      </nav>
+      <div class="linkblock d-flex justify-content-center">
+        <a href="https://www.linkedin.com/in/mike-b-170475197" target="_blank"
+          ><img
+            class="icons linksimgs"
+            src="./Images/linkedin_circle_color-512.png"
+            alt="LinkedIn logo"
+        /></a>
 
-          <a href="https://github.com/bannoura9/" target="_blank"><img class="linksimgs" src="./Images/Octocat.png" alt="Github logo"></a>
+        <a href="https://github.com/bannoura9/" target="_blank"
+          ><img class="linksimgs" src="./Images/Octocat.png" alt="Github logo"
+        /></a>
+      </div>
+    </div>
+
+    <main class="main-block col-md-12 col-xs-12 col-lg-12">
+      <section class="row project-card">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+          <h2>Spotifind (Team project).</h2>
+          <a href="https://github.com/nickkeller316/Spotifinder" target="_blank"
+            ><img
+              class="project-screenshot"
+              src="./Images/Spotifind.png"
+              alt="Spotifind project"
+          /></a>
         </div>
-     </div>
-      <section class="main-block col-md-12 col-xs-12 col-lg-12">
-        <h2>Spotifind (Team project).</h2>
-        <section>
-          <a href="https://github.com/nickkeller316/Spotifinder" target="_blank"><img class="project-screenshot" src="./Images/Spotifind.png" alt="Spotifind project"></a>
-        </section>
-        <section>
-          <a href="https://github.com/nickkeller316/Spotifinder" target="_blank"><button>Github</button></a>
-          <a href="https://nickkeller316.github.io/Spotifinder" target="_blank"><button>Page</button></a>
-        </section>
-        <p class="main-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolore temporibus aspernatur, exercitationem doloremque voluptatum odio eum sequi sit ipsa. Nobis, beatae animi. Quae tenetur, dolorem asperiores sit a quod itaque laudantium quasi architecto dolor aut rem est nisi molestias voluptatibus repellat quis laboriosam quaerat! Ratione commodi inventore cupiditate libero.</p>
-        <hr>
-        
-        
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+          <h3>Technologies used:</h3>
+          <p>Html, Css, JavaScript, jQuery, Foundation.</p>
+          <h3>Description</h3>
+          <p class="main-p">
+            Spotifind is the first group project I worked on. The Main point to
+            use two api and we choose both from Spotify. The challenge I faced
+            is to get the token and the authentication for users to login with
+            their Spotify accounts. I was in charge of the JavaScript part of
+            the project to append to the HTML file on the fly.
+          </p>
+          <div class="row">
+            <a
+              href="https://github.com/nickkeller316/Spotifinder"
+              target="_blank"
+              class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12"
+              ><button>Github</button></a
+            >
+            <a
+              href="https://nickkeller316.github.io/Spotifinder"
+              target="_blank"
+              class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12"
+              ><button>Page</button></a
+            >
+          </div>
+        </div>
+
+        <hr />
+        <hr />
+      </section>
+
+      <section class="row project-card">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+          <h2>Weather Dashboard.</h2>
+          <a
+            href="https://github.com/bannoura9/Weatherdashboard"
+            target="_blank"
+            ><img
+              class="project-screenshot"
+              src="./Images/weather dashboard.png"
+              alt="Spotifind project"
+          /></a>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+          <h3>Technologies used:</h3>
+          <p>Html, Css, JavaScript, jQuery, Bootstrap.</p>
+          <h3>Description</h3>
+          <p class="main-p">
+            Weather Dashboard is an application with Api function used from open
+            weather map. It was the first Api application I built and it was a
+            great learning curve to build it.
+          </p>
+          <div class="row">
+            <a
+              href="https://github.com/bannoura9/Weatherdashboard"
+              target="_blank"
+              class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12"
+              ><button>Github</button></a
+            >
+            <a
+              href="https://bannoura9.github.io/Weatherdashboard/Develop/index.html"
+              target="_blank"
+              class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12"
+              ><button>Page</button></a
+            >
+          </div>
+        </div>
+
+        <hr />
+      </section>
+
+      <section class="row project-card">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+          <h2>Daily Scheduler.</h2>
+          <a href="https://github.com/bannoura9/Daily-scheduler" target="_blank"
+            ><img
+              class="project-screenshot"
+              src="./Images/Daily-scheduler.png"
+              alt="Spotifind project"
+          /></a>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+          <h3>Technologies used:</h3>
+          <p>Html, Css, JavaScript, jQuery, Bootstrap.</p>
+          <h3>Description</h3>
+          <p class="main-p">
+            Scheduleris an application for user to store their hourly tasks
+            where it will store them in the local memory of the browser.
+          </p>
+          <div class="row">
+            <a
+              href="https://github.com/bannoura9/Daily-scheduler"
+              target="_blank"
+              class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12"
+              ><button>Github</button></a
+            >
+            <a
+              href="https://bannoura9.github.io/Daily-scheduler/Develop/index.html"
+              target="_blank"
+              class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12"
+              ><button>Page</button></a
+            >
+          </div>
+        </div>
+
+        <hr />
       </section>
     </main>
-     
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+    ></script>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    </script>
   </body>
 </html>

@@ -15,9 +15,9 @@ Made sticky footer
 * CSS
 * Javascript
 
-##### Screensshots.
-Screenshots are in the screenshot folder folder 
-(https://github.com/bannoura9/Mike-bannoura-bio/tree/main/Screenshots)
+##### Github repo
+https://github.com/bannoura9/Mike-B-portfolio
+
 
 
 
