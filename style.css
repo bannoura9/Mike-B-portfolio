@@ -3,7 +3,7 @@ html {
   /* height: 100%; */
   margin: 0;
 }
- {
+{
   font-family: "Big Shoulders Stencil Text", cursive;
   font-family: "EB Garamond", serif;
   font-family: "Kalam", cursive;
@@ -23,7 +23,7 @@ html {
 .background {
   /* background-size: 100%;
   background-size: cover; */
-  background: url("./Images/kevin-ku.jpg") rgba(255, 0, 150, 0.3);
+  background: url("./Images/kevin-ku.jpg");
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
@@ -103,5 +103,5 @@ button {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 80%;
+height: 1000px;
 }
